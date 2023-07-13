@@ -67,6 +67,7 @@ pyLogo = Image.open("cora-logo-300dpi.png")
 # external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = Dash(__name__, external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']) # , external_stylesheets=external_stylesheets
+server = app.server
 
 app.layout = html.Div([
     html.H1("Estimating the Embodied Carbon of Concrete Floor Systems: Conceptual Design Phase \n(Version 1.0)", style = {"textAlign": "center"}),
