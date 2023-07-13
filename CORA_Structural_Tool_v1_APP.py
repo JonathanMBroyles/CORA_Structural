@@ -153,7 +153,7 @@ def update_graph(floor_systems, span_length_range):
             source=pyLogo,
             xref="paper", yref="paper",
             x = 1.1, y = .15,
-            sizex = 0.25, sizey = 0.25, sizing="stretch", opacity=0.9,
+            sizex = 0.125, sizey = 0.125, sizing="stretch", opacity=0.9,
             xanchor = "center", yanchor = "bottom"
         )]
     
