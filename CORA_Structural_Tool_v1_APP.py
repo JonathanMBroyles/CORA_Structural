@@ -76,7 +76,7 @@ app.layout = html.Div([
     dcc.Checklist(
         id="Floor System Checklist",
         options=["RC Flat Plate", "RC Flat Slab", "RC One-Way Slab", "RC Two-Way Slab with Beams", "RC Two-Way Waffle Slab", "RC Voided Plate", "PT Flat Plate", "PT Hollow Core Slab", "PT Voided Plate (Orthogonal Layout)", "PT Voided Plate (Diagonal Layout)"],
-        value=["RC Flat Plate", "RC Voided Plate", "PT Flat Plate"],
+        value=["RC Flat Plate", "RC Voided Plate", "PT Flat Plate", "PT Voided Plate (Orthogonal Layout)"],
         inline=True),
 
     
